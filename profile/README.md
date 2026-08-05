@@ -1,0 +1,19 @@
+# embedded-alerts-test
+
+Independent acceptance organization for **embedded-alerts**.
+
+Readiness-gated SDK, API, Flutter/web UI, push-provider, offline queue, and embedded-host certification.
+
+## Portfolio
+
+| Repository | Class | Readiness | Primary dependency path |
+|---|---|---|---|
+| `eal-clients-consumer-matrix` | SDK consumer | `planned_dependency` | `matrix` |
+| `api-contract` | API contract | `planned_dependency` | `matrix` |
+| `flutter-ui-e2e` | mobile/emulator | `planned_dependency` | `matrix` |
+| `web-ui-e2e` | browser E2E | `planned_dependency` | `matrix` |
+| `push-provider-integration` | provider adapter | `planned_dependency` | `matrix` |
+| `offline-queue-replay` | synchronization | `planned_dependency` | `matrix` |
+| `embedded-widget-hosts` | interoperability | `planned_dependency` | `matrix` |
+
+Pull requests run deterministic harness checks. Emulators, desktop matrices, live APIs/providers, databases, chaos, scale, and soaks are scheduled/manual. Missing upstreams or credentials are blocked readiness—not false passes or product regressions.
