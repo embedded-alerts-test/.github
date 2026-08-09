@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "productionRepository": "embedded-alerts/eal-mcp-server.rs",
+  "productionCommit": "04252a83040f4a95d4ef5bc7aabcd6fd1ba308a4",
+  "sharedRepository": "ORESoftware/mcp-rust-libs",
+  "sharedRevision": "458419497de273d2ca6089a727f38894083d8da6",
+  "rmcpVersion": "2.2.0",
+  "protocolVersion": "2025-11-25",
+  "expectedDependencies": [
+    "embedded-alerts/eal-clients",
+    "embedded-alerts/eal-interfaces",
+    "embedded-alerts/eal-libs",
+    "embedded-alerts/eal-cli",
+    "embedded-alerts/eal-sync",
+    "shared-auth/shared-auth-clients"
+  ]
+}
