@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "status": "active",
+  "testOwner": {"login": "embedded-alerts-test", "id": 313177687, "type": "Organization"},
+  "productionOwner": {"login": "embedded-alerts", "id": 313129319, "type": "Organization"},
+  "discoveryScope": {"kind": "organization-current-tips"},
+  "relationshipRegistry": "architecture/repository-relationships.json",
+  "policy": {"suffixInferenceAuthoritative": false, "bindExactDefaultBranchSha": true, "failClosedOnInvisiblePrivateSources": true, "silentPublicFallbackAllowed": false}
+}
